@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" >
+    <title>projrtikb</title>
+    <link rel="stylesheet" href="ibm.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header" id="Acceuil">
+<nav>
+<img src="logo 3STV.jpeg" class="avatar" > <br>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="#Acceuil">Acceuil</a></li>
+<li><a href="#desti">Destination</a></li>
+<li><a href="#ma-service" >Services</a></li>
+<li><a href="#cnt">Contact</a></li>
+<li><a href="#réservation">Reserver maintenant</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"> </i>
+</nav>
+ <div class="text-box">
+    <h1>Voyagez avec 3STV-NIGER</h1>
+    
+    <h3>Découvrez le confort de nos services de transport.Réservez votre voyage en quelues clics et profitez du voyage parfait à travers le Niger et dans la sous région </h3>
+ <a href="" class="hero-btn">Visitez notre page pour plus de rensegnement </a>
+</div>
+</section>
+
+<script>
+
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+</script>
+<section class="information" id="réservation">
+    <h2 id="ip">Information personelle </h2>
+<div class="inp">
+<input type="text" id="nom" name="nom" placeholder="NOM" > 
+<input type="text" id="prénom" name="prénom" placeholder="PRENOM">
+<input type="tel" id="contact" name="contact" placeholder="Tel"> 
+<input type="email" id="gmail" name="gmail" placeholder="Adresse Gmail"> 
+</div>
+ <h2 id="ip">Information du voyage  </h2>
+ <div class="inv">
+<input type="text" id="départ" placeholder="Ville de départ">
+<input type="text" id="destination" placeholder="Ville d'arrivée">
+<input type="datetime-local" id="date" >
+<input type="number" id="nomp" placeholder="Nombre de passager ">
+<input type="text" id="prix" placeholder="Prix unitaire ">
+<input type="submit" class="réserver" value="Reserver">
+ </div>
+  
+  
+</section> 
+
+
+<section class="service" id="ma-service">
+
+<h1>Nos Services </h1>
+<p> Découvrez pourquoi des milliers de voyageur nous font confiance pour leurs déplacement </p>
+
+<div class="row">
+
+<div class="service-col">
+<h3>Sécurité garantie</h3>
+<p>Nos chauffeurs sont formés et expérimentés.Tous nos véhicule sont régulièrement entretenus et inspectés</p>
+
+</div>
+
+<div class="service-col">
+    <h3>Ponctualité</h3>
+    <p>Nous respectons nos horaires.Départ et arrivée à l'heure prévue INCHA'ALLAH pour votre tranquilité d'esprit</p>
+</div>
+<div class="service-col">
+    <h3>WiFi gratuit</h3>
+    <p>
+        Restez connecté pendant votre voyage avec notre WiFi haut débit gratuit dans nos véhicules.
+    </p>
+</div>
+<div class="service-col">
+
+    <h3>Collations </h3>
+    <p>Profitez de collation et boisons gratuite pendant les longs trajets pour votre confort .</p>
+</div>
+
+
+<div class="service-col">
+    <h3>Climatisation </h3>
+    <p>Voyagez dans le confort avec nos systèmes de climatisation performants et silencieux .</p>
+</div>
+
+<div class="service-col">
+    <h3>Divertissement </h3>
+    <p>Écoutez de la musique ou regardez des films pendant votre voyage grâce a notre système multimédia.</p>
+</div>
+
+</div>
+</section>
+<section class="Destination" id="desti">
+<h1>Destinations Populaire</h1>
+<h2>Explorez les principales routes desservies par 3STV-NIGER avec le meilleur rapport qualité-prix</h2>
+<div class="container container-populaires">
+  <h2>National & International</h2>
+  <div class="row populaires">
+    <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Agadez</h5>
+        <p class="text-muted">6 h 45 min</p>
+
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+    <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Zinder </h5>
+        <p class="text-muted">6 h 45 min</p>
+
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+    <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Dosso</h5>
+        <p class="text-muted">6 h 45 min</p>
+
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+        <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+    <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Maradi</h5>
+        <p class="text-muted">6 h 45 min</p>
+
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+    <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Tahoua</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div> 
+
+ <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Arlit</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+ <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Gaya</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+ <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Téra</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+ <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Abidjan</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+ <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Cotonou</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+ <div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Lomé</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+<div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey →   Accra</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+<div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Bamako</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+<div class="card populaire">
+      <div class="card-body">
+        <h5 class="card-title">Niamey → Ouaga</h5>
+        <p class="text-muted">6 h 45 min</p>
+        <div class="prix">
+          <span class="h6">15 000 CFA</span>
+          <button class="btn btn-success" value="Réserver">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    </div>
+    </div>
+</section>
+<section class="cta" id="cnt">
+<h4> Contact</h4>
+
+<p>Votre partenaire de confiance pour tout vos déplacement au Niger et dans la sous région .Nous vous offrons sécurité, <br> confort et ponctualité depuis plus de 15ans avec 3STV-NIGER le voyage parfait</p>
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-whatsapp"></i>
+  <i class="fa fa-linkedin"></i>
+</div>
+</section>
+</body>
+</html> 
